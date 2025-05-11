@@ -15,5 +15,12 @@ Valid Anagrams:
 
   Initial Approach (accepted on Leetcode) : Initialize two lists temp1 and temp2 iterate the strings s and t and append there elements to      temp1 and temp 2 respectively. Then check if sorted(temp1) == sorted(temp2)
 
+Two Sum: 
+
+  Initial Approach (accepted on Leetcode): Initialise two pointers i and j and a list temp position i at the first element and j at the next element then iterate j through the array if the element at position j and i add up to give the target integer, append i and j to temp and return temp. If not the move j to the next element if j goes to the end and doesn't add up to the target then we move i to the next element.
+
+
+
+
 
 
