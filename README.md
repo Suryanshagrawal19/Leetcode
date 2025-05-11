@@ -19,6 +19,21 @@ Two Sum:
 
   Initial Approach (accepted on Leetcode): Initialise two pointers i and j and a list temp position i at the first element and j at the next element then iterate j through the array if the element at position j and i add up to give the target integer, append i and j to temp and return temp. If not the move j to the next element if j goes to the end and doesn't add up to the target then we move i to the next element.
 
+Group Anagram:
+
+
+  Initial Approach: Initialise two pointers i and j and a list temp. For each string i in strs j is the next string iterated through the list and if sorted(i) == sorted(j). Initialize a list store append strs{i} and strs{j} and then append strs to temp. And send j to the next position and return temp, else send j to the next string. 
+
+
+  Correct Approach: Initialise a dictionary anagram and for each string s in strs. Sort each character in s and join them in sorted_s. Then sorted_s acts as the key to all other anagrams. it appends the original string s to the existing list. inally, it returns the list of all grouped anagrams
+
+
+Top K Frequent Elements:
+
+
+  Initial Approach (accepted on Leetcode): Initialise a variable count which is equal to Counter. Creates a dictionary-like object where keys are elements from nums and values are their frequencies. Then we return [x for x, _ in count.most_common(k)]. count.most_common(k)returns a list of the k most frequent elements in descending order of frequency. [x for x, _ in ...] Iterates over the top k (element, frequency) pairs and extracts just the element x, ignoring the frequency _.
+
+
 
 
 
