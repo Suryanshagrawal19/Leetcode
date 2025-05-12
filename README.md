@@ -33,6 +33,12 @@ Top K Frequent Elements:
 
   Initial Approach (accepted on Leetcode): Initialise a variable count which is equal to Counter. Creates a dictionary-like object where keys are elements from nums and values are their frequencies. Then we return [x for x, _ in count.most_common(k)]. count.most_common(k)returns a list of the k most frequent elements in descending order of frequency. [x for x, _ in ...] Iterates over the top k (element, frequency) pairs and extracts just the element x, ignoring the frequency _.
 
+Remove Duplicates from Sorted Array:
+
+
+  Initial Approach (accepted on leetcode): initialise a variable i=0 and j=0 and iterate through the array while i< len(nums) j+=1and then we iterate j though the array and check each element if element at i and j are equal then we remove element at j from the array and move to the next one.
+
+
 
 
 
