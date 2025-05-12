@@ -38,6 +38,11 @@ Remove Duplicates from Sorted Array:
 
   Initial Approach (accepted on leetcode): initialise a variable i=0 and j=0 and iterate through the array while i< len(nums) j+=1and then we iterate j though the array and check each element if element at i and j are equal then we remove element at j from the array and move to the next one.
 
+Concatenation of Array:
+
+
+  Initial Approach (accepted on leetcode): Initialise a list ans and variable i=0 then iterate through the list whale i< lens(nums) and append nums[i] to ans and move i to next position. Then if i==len(nums) set i to 0 then iterate while i<len(nums) append nums[i] to ans and move i to next position then at the end return ans.
+
 
 
 
