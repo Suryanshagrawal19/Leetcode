@@ -43,6 +43,11 @@ Concatenation of Array:
 
   Initial Approach (accepted on leetcode): Initialise a list ans and variable i=0 then iterate through the list whale i< lens(nums) and append nums[i] to ans and move i to next position. Then if i==len(nums) set i to 0 then iterate while i<len(nums) append nums[i] to ans and move i to next position then at the end return ans.
 
+Remove Element:
+
+
+  Initial Approach (accepted on leetcode): initialise a variable i and iterate it through the list while i< len(nums). If the element at position i is equal to the value of the given int then we remove it from the list nums.remove(nums[i]) else we move i to the next position, then at the end we return nums.
+
 
 
 
