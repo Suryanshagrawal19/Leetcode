@@ -49,6 +49,12 @@ Remove Element:
   Initial Approach (accepted on leetcode): initialise a variable i and iterate it through the list while i< len(nums). If the element at position i is equal to the value of the given int then we remove it from the list nums.remove(nums[i]) else we move i to the next position, then at the end we return nums.
 
 
+Product of Array Except Self:
+
+
+  Correct Approach: initialize a list temp of length len(nums) with all elements initially set as 1, then initialise a variable mul1=1 and iterate the list for i in range(len(nums)) and let value of temp[i] be equal to mul1 and let value of mul1 be the multiplication of the elements to the left of it, the initialise a variable mul2 and iterate through the list starting for the right this time and keep going back let value of elements temp[i] be equal to the value right now multiplied by mul2 and let mul2 be the multiplication of all elements right of it.
+
+
 
 
 
